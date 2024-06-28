@@ -120,9 +120,9 @@ h1 { text-align: center;
                #application-form{ margin: 0 auto; 
               font-weight: 600; }
 
-              .form-group{ margin-top: 16px;  }
-
-
+              .form-group{ margin-top: 16px;  
+                        }
+            
 
               textarea{     height: 150px;
                width: 80%;
@@ -167,6 +167,9 @@ h1 { text-align: center;
   }
   #submit-reset{ display: flex;
                 margin: 0 auto;}
+            
+
+            
 
 
       
