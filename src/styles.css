@@ -120,10 +120,10 @@ h1 { text-align: center;
                #application-form{ margin: 0 auto; 
               font-weight: 600; }
 
-              .form-group{ margin-top: 16px;  }
-
-
-
+              .form-group{ margin-top: 16px;  
+                        }
+            
+ 
               textarea{     height: 150px;
                width: 80%;
                margin-top: 10px;
@@ -148,7 +148,7 @@ h1 { text-align: center;
   label[ for="submit"] {  margin-top: 3px;}
   label[for="terms"] { margin-bottom: 30px;}
 
-  #reset{ text-align: right;}
+  #reset-button{ text-align: right;}
     input[ type="reset"] {  border: 2px solid gray;
                              background-color: #4f46e5;
                              color: #f1f5f9;
@@ -166,7 +166,15 @@ h1 { text-align: center;
      
   }
   #submit-reset{ display: flex;
-                margin: 0 auto;}
+                margin: 0 auto;
+                }
+            #submit :hover {background-color: #bfdbfe;
+              color: black;}
+            #reset:hover {background-color: #bfdbfe;
+              color: black;}
+
+
+            
 
 
       
